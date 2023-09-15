@@ -51,6 +51,7 @@ body {
 @media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
+    height: auto;
   }
 }
 
@@ -81,9 +82,6 @@ section {
 }
 
 @media (max-width: 900px) {
-  body {
-  }
-
   .fact-form {
     flex-direction: column;
     align-items: stretch;
@@ -95,12 +93,6 @@ section {
   }
 }
 
-@media (max-width: 900px) {
-  .main {
-    grid-template-columns: 1fr;
-    height: auto;
-  }
-}
 h1 {
   font-size: 42px;
   text-transform: uppercase;
